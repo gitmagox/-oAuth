@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"youappid","appkey":"youpakey","callback":"youcalback","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}
