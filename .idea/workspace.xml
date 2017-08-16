@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e998357-eeda-4485-b8cc-552cacd9fbf2" name="默认的" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/oAuth协议.md" afterPath="$PROJECT_DIR$/read/oAuth协议.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/class/ErrorCase.class.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/class/ErrorCase.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/class/Oauth.class.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/class/Oauth.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/class/QC.class.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/class/QC.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/class/Recorder.class.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/class/Recorder.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/class/URL.class.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/class/URL.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/comm/config.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/comm/config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/comm/inc.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/comm/inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/API/qqConnectAPI.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/API/qqConnectAPI.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/Readme php 2.1.txt" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/Readme php 2.1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/doc/QC SDK for php 2.0文档.doc" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/doc/QC SDK for php 2.0文档.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/doc/QC SDK for php 2.1文档.doc" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/doc/QC SDK for php 2.1文档.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/add_idol/add_idol.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/add_idol/add_idol.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/add_idol/add_idol.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/add_idol/add_idol.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/add_pic_t/add_pic_t.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/add_pic_t/add_pic_t.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/add_pic_t/add_pic_t.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/add_pic_t/add_pic_t.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/blog/add_blog.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/blog/add_blog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/blog/add_blog.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/blog/add_blog.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/check_fan/check_page_fans.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/check_fan/check_page_fans.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/check_fan/check_page_fans.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/check_fan/check_page_fans.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/comm/config.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/comm/config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/comm/config2.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/comm/config2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/comm/session.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/comm/session.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/comm/session2.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/comm/session2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/comm/utils.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/comm/utils.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/css/common.css" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/css/common.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_fanslist/get_fanslist.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_fanslist/get_fanslist.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_fanslist/get_fanslist.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_fanslist/get_fanslist.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_idollist/get_idollist.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_idollist/get_idollist.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_idollist/get_idollist.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_idollist/get_idollist.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_info/get_info.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_info/get_info.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_info/get_info.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_info/get_info.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_repost_list/get_repost_list .html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_repost_list/get_repost_list .html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_repost_list/get_repost_list .php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_repost_list/get_repost_list .php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_tenpay_addr/get_tenpay_addr.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_tenpay_addr/get_tenpay_addr.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/get_tenpay_addr/get_tenpay_addr.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/get_tenpay_addr/get_tenpay_addr.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/img/qq_login.png" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/img/qq_login.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/index.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/oauth/callback.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/oauth/callback.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/oauth/index.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/oauth/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/photo/add_album.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/photo/add_album.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/photo/add_album.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/photo/add_album.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/photo/list_album.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/photo/list_album.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/photo/upload_pic.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/photo/upload_pic.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/photo/upload_pic_p.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/photo/upload_pic_p.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/share/add_share.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/share/add_share.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/share/add_share.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/share/add_share.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/topic/add_topic.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/topic/add_topic.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/topic/add_topic.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/topic/add_topic.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/user/get_user_info.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/user/get_user_info.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/weibo/add_weibo.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/weibo/add_weibo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/example/weibo/add_weibo.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/example/weibo/add_weibo.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/index.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/install/Recorder.class.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/install/Recorder.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/install/index.php" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/install/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/install/install.html" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/install/install.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/Connect2.1/install/setted.inc" afterPath="$PROJECT_DIR$/read/qqtest/Connect2.1/install/setted.inc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/callback.php" afterPath="$PROJECT_DIR$/read/qqtest/callback.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/index.php" afterPath="$PROJECT_DIR$/read/qqtest/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/qqlogin.php" afterPath="$PROJECT_DIR$/read/qqtest/qqlogin.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qqtest/qqlogout.php" afterPath="$PROJECT_DIR$/read/qqtest/qqlogout.php" />
-    </list>
+    <list default="true" id="9e998357-eeda-4485-b8cc-552cacd9fbf2" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -283,16 +221,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502875549564</updated>
-      <workItem from="1502875551059" duration="621000" />
+      <workItem from="1502875551059" duration="788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621000" />
+    <option name="totallyTimeSpent" value="788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
