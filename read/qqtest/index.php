@@ -16,8 +16,6 @@ require_once 'Connect2.1/qqConnectAPI.php';
 	<?php }
 		$qc = new QC($_COOKIE['qq_accesstoken'],$_COOKIE['qq_openid']);
 		$userinfo = $qc->get_user_info();
-
-
 	 ?>
 
 

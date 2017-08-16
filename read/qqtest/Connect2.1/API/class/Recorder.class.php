@@ -2,10 +2,10 @@
 /* PHP SDK
  * @version 2.0.0
  * @author connect@qq.com
- * @copyright © 2012, Tencent Corporation. All rights reserved.
+ * @copyright © 2013, Tencent Corporation. All rights reserved.
  */
 
-require_once(CLASS_PATH."ErrorCase.class.php");
+require_once(CLASS_PATH . "ErrorCase.class.php");
 class Recorder{
     private static $data;
     private $inc;
@@ -15,7 +15,8 @@ class Recorder{
         $this->error = new ErrorCase();
 
         //-------读取配置文件
-        $incFileContents = file_get_contents(ROOT."comm/inc.php");
+        $incFileContents = file(ROOT."comm/inc.php");
+        $incFileContents = $incFileContents[1];
         $this->inc = json_decode($incFileContents);
         if(empty($this->inc)){
             $this->error->showError("20001");

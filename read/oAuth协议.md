@@ -1,21 +1,19 @@
-oAuth 协议简介
-	oAuth 协议为用户资源的授权提供了一个安全的，开放而又简易的标准。
-	oAuth 不会使第三方触及到用户的帐号信息（用户名与密码）.
-	oAuth 使第三方不用使用用户的用户名与密码就可以申请得到该用户姿源的授权.
+OAuth 协议简介
+	OAuth 协议为用户资源的授权提供了一个安全的，开放而又简易的标准;
+	OAuth 不会使第三方触及到用户的帐号信息（用户名与密码）;
+	OAuth 使第三方不用使用用户的用户名与密码就可以申请得到该用户姿源的授权;
 
-oAuth 工作原理
+QQ OAuth 工作原理
 	
-	用户          请求            第三方登陆
-	第三方        请求            QQ OAuth服务
-	用户          输入账号密码    QQ OAuth服务
-	QQ OAuth服务  传回code        第三方
-	第三方        用户授权令牌    QQ OAuth服务
-	QQ OAuth服务  传回AccessToken  第三方
-	第三方        通过AccessToken请求用户数据或调用API
+	主动方        行为                  被动方
+	第三方        请求                 QQ OAuth服务
+	用户          输入账号密码          QQ OAuth服务
+	QQ OAuth服务  传回code             第三方
+	第三方        用户授权令牌          QQ OAuth服务
+	QQ OAuth服务  传回AccessToken      第三方
+	第三方        通过AccessToken请求   用户数据或调用API
 
-
-
-请求QQ oAuth登陆页面
+请求QQ OAuth登陆页面
 
 	第一步:
 	Request Token Url 没授权的令牌请求服务地址
@@ -44,4 +42,4 @@ oAuth 工作原理
 	第三方通过AccessToken   post请求   QQ
 	QQ----------返回json xml       第三方
 
-	第三方    得到数据     再处理
+	第三方得到数据再处理
