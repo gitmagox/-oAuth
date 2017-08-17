@@ -213,6 +213,7 @@ abstract class Oauth{
 		return  $data;
 	}
 
+	//abstract protected function getFromCallback();
 	/**
 	 * 抽象方法，在SNSOauth中实现
 	 * 组装接口调用参数 并调用接口
