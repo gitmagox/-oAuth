@@ -1,6 +1,6 @@
 <?php
 namespace Magox\OAuth\Api;
-class GridStrategyFactory
+class ApiStrategyFactory
 {
     //生产命名空间
     static $namespace = '';
