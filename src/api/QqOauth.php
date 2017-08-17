@@ -79,7 +79,10 @@ class QqOauth extends Oauth{
 			throw new Exception('没有获取到openid！');
 		}
 	}
-	//取用户信息
+	/*
+	 * 取用户信息
+	 * @return array
+	 */
 	protected function getUserInfo($token){
         $data = $this->call('user/get_user_info');
         if($data['ret'] == 0){
