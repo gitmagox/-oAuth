@@ -64,7 +64,7 @@ class QqOauth extends Oauth{
 	 * 获取当前授权应用的openid
 	 * @return string
 	 */
-	public function openid(){
+	public function getOpenid(){
 		$data = $this->Token;
 		if(isset($data['openid']))
 			return $data['openid'];
@@ -78,5 +78,18 @@ class QqOauth extends Oauth{
 		} else {
 			throw new Exception('没有获取到openid！');
 		}
+	}
+	//取用户信息
+	protected function getUserInfo($token){
+        $data = $this->call('user/get_user_info');
+        if($data['ret'] == 0){
+            $userInfo['type'] = 1;
+            $userInfo['name'] = $data['nickname'];
+            $userInfo['nick_name'] = $data['nickname'];
+            $userInfo['head_image'] = $data['figureurl_2'];
+            return $userInfo;
+        } else {
+            throw_exception("获取腾讯QQ用户信息失败：{$data['msg']}");
+        }
 	}
 }

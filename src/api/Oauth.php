@@ -149,7 +149,7 @@ abstract class Oauth{
 		$this->Token = $this->parseToken($data, $extend);
 		return $this->Token;
 	}
-
+	
 	/**
 	 * 合并默认参数和额外参数
 	 * @param array $params  默认参数
@@ -230,5 +230,9 @@ abstract class Oauth{
 	 * 抽象方法，在SNSOauth中实现
 	 * 获取当前授权用户的SNS标识
 	 */
-	abstract public function openid();
+	abstract public function getOpenid();
+	/*
+	 * 取用户信息
+	 */
+	abstract protected function getUserInfo($token);
 }

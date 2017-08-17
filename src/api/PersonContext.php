@@ -7,7 +7,7 @@ class PersonContext{
     /**
      * 设置环境
      */
-    static function setTravelStrategy(Oauth $object){
+    static function setTravelStrategy(Oauth $object,Request $request){
         return self::$_strategy = $object;
     }
     /**
@@ -15,5 +15,17 @@ class PersonContext{
      */
     static function call($api, $param = '', $method = 'GET', $multi = false){
         return self::$_strategy ->call($api, $param, $method, $multi);
+    }
+    static function getAccessToken($code, $extend = null)
+    {
+        if($request->input('tencent'))
+        {
+            $extend = array('openid' => $request->input('openid'), 'openkey' => $request->input('openkey'));
+        }
+        return self::$_strategy ->getAccessToken($code,$extend);
+    };
+    static function getUserInfo($token)
+    {
+        return self::$_strategy->getUserInfo($token);
     }
 }
