@@ -84,15 +84,15 @@ class QqOauth extends Oauth{
 	 * @return array
 	 */
 	protected function getUserInfo($token){
-        $data = $this->call('user/get_user_info');
-        if($data['ret'] == 0){
-            $userInfo['type'] = 1;
-            $userInfo['name'] = $data['nickname'];
-            $userInfo['nick_name'] = $data['nickname'];
-            $userInfo['head_image'] = $data['figureurl_2'];
-            return $userInfo;
-        } else {
-            throw_exception("获取腾讯QQ用户信息失败：{$data['msg']}");
-        }
+		$data = $this->call('user/get_user_info');
+		if($data['ret'] == 0){
+			$userInfo['type'] = 1;
+			$userInfo['name'] = $data['nickname'];
+			$userInfo['nick_name'] = $data['nickname'];
+			$userInfo['head_image'] = $data['figureurl_2'];
+			return $userInfo;
+		} else {
+			throw_exception("获取腾讯QQ用户信息失败：{$data['msg']}");
+		}
 	}
 }
