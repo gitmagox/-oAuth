@@ -26,7 +26,7 @@ return [
     |
     */
     'api'   => [
-
+        //qq
         'qq' => [
             'app_key'       => '', 
             'app_secret'    => '', 
@@ -39,6 +39,16 @@ return [
                         "GET"
                     ],
                 ]
+            ],
+        ],
+        //github
+        'github' => [
+            'app_key'       => '', 
+            'app_secret'    => '', 
+            'callback'      => '',
+
+            'api_map'       =>[
+                
             ],
         ],
 
