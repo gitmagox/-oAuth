@@ -51,6 +51,16 @@ return [
                 
             ],
         ],
+        //新浪微博
+        'github' => [
+            'app_key'       => '', 
+            'app_secret'    => '', 
+            'callback'      => '',
+
+            'api_map'       =>[
+                
+            ],
+        ],
 
     ],
 

@@ -1,7 +1,7 @@
 <?php
 namespace Magox\OAuth\Api;
 
-class GithubOauth extends ThinkOauth{
+class GithubOauth extends Oauth{
 	/**
 	 * 获取requestCode的api接口
 	 * @var string
