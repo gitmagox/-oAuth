@@ -61,6 +61,16 @@ return [
                 
             ],
         ],
+        //新浪微博
+        'google' => [
+            'app_key'       => '', 
+            'app_secret'    => '', 
+            'callback'      => '',
+
+            'api_map'       =>[
+                
+            ],
+        ],
 
     ],
 
